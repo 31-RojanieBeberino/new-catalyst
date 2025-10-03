@@ -1,0 +1,228 @@
+@font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Regular.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Medium.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Semibold.otf") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "General Sans";
+    src: url("/fonts/GeneralSans-Bold.otf") format("opentype");
+    font-weight: 700;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, a, b,
+li, select, input, button, span,
+::placeholder{
+    font-family: "General Sans"!important;
+    margin:0px!important;
+}
+
+.navbar-brand img{
+    width: 160px;
+    object-fit: contain;
+}
+
+
+.headerSec{
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-bottom:30px;
+    position: relative;
+    z-index: 99;
+}
+
+.homeBanner{
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -80px;
+    padding:150px 20px 200px;
+    position: relative;
+    z-index: 0;
+}
+
+.bannerImg{
+    background-color: #fff;
+    border-radius: 20px;
+    padding:30px;
+}
+
+.bannerImg img {
+    width: 400px;
+    object-fit: contain;
+}
+
+.bannerTitle{
+    background-image: url(../img/image2.webp);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:30px 40px 30px;
+}
+
+.bannerTitle h1{
+    transform: rotate(-2deg);
+    font-size: 50px;
+    font-weight: 700;
+    color:#4F66FA;
+}
+
+.bannerImg p{
+    padding:10px;
+    background-color: #000;
+    color:#fff;
+    width: 70%;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+
+.bannerContent p{
+    padding-left:45px;
+    font-size: 25px;
+}
+
+.buttonSec{
+    padding-left:45px;
+}
+
+
+.btn-primary{
+    background-color: #4F66FA!important;
+    color:#fff!important;
+    font-size: 17px!important;
+    font-weight: 600!important;
+    border-radius: 50px!important;
+    padding: 15px!important;
+    border: 0px!important;
+    text-transform: uppercase;
+}
+
+.btn-secondary{
+    background-color: #B5F3F9!important;
+    color:#4F66FA!important;
+    font-size: 17px!important;
+    font-weight: 600!important;
+    border-radius: 50px!important;
+    padding: 15px!important;
+    border: 0px!important;
+    text-transform: uppercase;
+}
+
+.foundersSec{
+    padding:60px 20px;
+}
+
+.foundersSec h4{
+    color:#000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.foundersSec img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.twoColSec{
+    padding:60px 20px;
+}
+
+.secTitle{
+    background-image: url(/img/image5.webp);
+    background-position: center center;
+    background-size: contain;
+    padding:40px 20px;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.secTitle h2{
+    font-size: 57px;
+    font-weight: 700;
+    color:#fff;
+    transform: rotate(-2deg);
+}
+
+.wwdList{
+    list-style: none;
+}
+
+.wwditems{
+    position: relative;
+}
+
+.wwditems img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    position: absolute;
+    top: 1px;
+    left: -30px;
+}
+
+.wwdSec{
+    background-image: url(/img/image6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+
+
+.wwdSec::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    top: 0;
+    left: 0;
+    opacity: .8;
+    background: #B5F3F9;
+    background: linear-gradient(180deg, rgba(181, 243, 249, 1) 0%, rgba(79, 102, 250, 1) 100%);
+}
+
+.wwdContent{
+    position: relative;
+    padding:30px;
+}
+
+.wwdTitle{
+    width: 50%;
+    padding:10px 20px;
+    background-color: #B5F3F9;
+    transform: rotate(-2deg);
+    margin-bottom: 10px;
+}
+
+.wwdTitle h2{
+    color:#4F66FA;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+.wwdContent p{
+    padding-left:25px;
+    color:#fff;
+}
+
