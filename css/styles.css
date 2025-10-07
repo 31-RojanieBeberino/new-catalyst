@@ -667,3 +667,271 @@ li, select, input, button, span,
     font-size: 15px;
     font-weight: 500;
 }
+
+
+
+
+.innerSec h4{
+    font-size: 35px;
+    font-weight: 600;
+    color:#000;
+}
+
+.innerSec p{
+    font-size: 20px;
+    font-weight: 400;
+    color:#000;
+}
+
+.worksTitle{
+    padding:20px;
+    background-image: url('/img/image32.webp');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.worksTitle h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #4F66FA;
+}
+
+.worksCard img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.worksImgSec{
+    position: relative;
+}
+
+.tagsSec{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+
+.worksDetails h5{
+    font-size: 30px;
+    font-weight: 600;
+    color:#0016a1;
+}
+
+.worksDetails h6{
+    font-size: 15px;
+    font-weight: 400;
+    color:#0016a1;
+}
+
+/* Inner Repeatd Section */
+
+.innerSec.banner{
+    padding-bottom:70px;
+}
+
+.innerSec{
+    padding:70px 20px 200px;
+}
+
+.worksTags{
+    padding:10px 25px;
+    background-color: #ffffff41;
+    color:#fff!important;
+    font-size: 15px!important;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.gradient-text {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(90deg, #5b6cff, #84dbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.btn-success{
+    background-color: #00000052!important;
+    border-radius: 50px!important;
+    color:#fff;
+    border-color:#00000052!important;
+}
+
+
+.workInner{
+    padding:50px 20px 250px;
+    background-image: none!important;
+}
+
+.cfl-tags{
+    padding:10px 20px;
+    font-size: 15px!important;
+    font-weight: 600;
+    color:#fff;
+    border-radius: 50px;
+    background-color: #0016a1;
+}
+
+
+.rateSec h3{
+    color:#0016a1;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+
+.rateSec p{
+    color:#000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.imgUnderText{
+    font-size: 30px!important;
+    color:#0016a1;
+    text-align: center;
+}
+
+.workInner-2{
+    background-image: url('/img/image40.webp');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.projectSheet{
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #0000004b;
+    background-color: #fff;
+    height: 600px;
+    width: 80%;
+}
+
+
+.projectSheet h3{
+    font-size: 35px;
+    font-weight: 600;
+    color:#000;
+}
+
+
+.projInfo{
+    padding:10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+
+.projInfo span{
+    font-size: 15px;
+    color:#2f2f2f;
+}
+
+.projInfo h4{
+    font-size: 35px;
+    color:#2f2f2f;
+}
+
+.projInfo p {
+    padding:5px 10px;
+    background-color: #000;
+    border-radius: 50px;
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.workDetails h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:#0016a1;
+}
+
+
+.workDetails p {
+    font-size: 20px;
+    color:#000;
+}
+
+
+.crafting h2{
+    font-size: 70px;
+    color:#0016a1;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.crafting p{
+    font-size: 25px;
+    color:#000;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+
+.secList {
+    list-style: none;
+}
+
+.secList li{
+    position: relative;
+    font-size: 25px;
+    color:#000;
+    line-height: 1.3em;
+}
+
+.secList li i{
+    position: absolute;
+    top: 0;
+    left: -30px;
+    color:#ff0707;
+}
+
+
+.secList.checked li i{
+    color:#8091fd!important;
+}
+
+
+.innerSec.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:#0016a1;
+}
+
+
+.innerSec h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #4F66FA;
+    line-height: 1em;
+}
+
+
+.innerSec .cfl-tags {
+    color:#fff!important;
+}
+
+
+.responsiveSec{
+    padding:200px 20px 350px;
+    margin-top:-100px;
+    background-image: url('/img/image52.webp');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
