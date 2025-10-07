@@ -1,0 +1,255 @@
+@media screen and (max-width:1029px){
+    .bannerImg img{
+        width: 50%;
+    }
+
+    .secTitle h2{
+        font-size: 65px;
+    }
+
+    .linebroke{
+        display: none;
+    }
+
+    .wwdCard{
+        width: 100%;
+        padding:20px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px #00000059;
+    }
+
+    .cardItems.rotate{
+        left: 200px;
+    }
+
+    .contemporaryFL{
+        padding-bottom:100px;
+    }
+
+    .what-our-client h2{
+        background-size: 80%;
+        line-height: 1em;
+    }
+
+
+    .laptopSec{
+        background-image: url('/img/image35.webp');
+        background-size: cover;
+        overflow: hidden;
+        border-radius: 20px;
+        position: relative;
+        height: inherit;
+        padding:0px;
+    }
+
+    .laptopSec::before{
+        background: #536AFA;
+        background: linear-gradient(90deg, rgba(83, 106, 250, 1) 0%, rgba(79, 102, 250, 0.01) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+    }
+
+    .laptopInneContent{
+        position: relative;
+        z-index: 1;
+    }
+
+
+    .pick-a-line h2{
+        font-size: 60px;
+        line-height: 1em;
+    }
+
+    .btmInnerSec h6{
+        font-size: 30px;
+        width: 100%;
+    }
+
+
+    .btmInnerSec{
+        margin-top:50px ;
+    }
+
+
+    .bottomSection h2{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .bannerImg img{
+        width: 100%;
+    }
+
+    .bannerTitle{
+        padding:15px;
+    }
+
+    .bannerTitle h1{
+        font-size: 25px;
+    }
+
+    .bannerContent p{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .buttonSec{
+        padding: 0px;
+    }
+
+    .secTitle{
+        width: 50%;
+        padding:20px 10px;
+    }
+
+    .secTitle h2{
+        font-size: 30px;
+    }
+
+    .wwdContent{
+        padding:15px;
+    }
+
+    .wwdSec{
+        height: 350px;
+    }
+
+    .wwdTitle{
+        width: 70%;
+    }
+
+    .wwdTitle h2{
+        font-size: 30px;
+    }
+
+    .what-we-do{
+        padding-bottom:250px;
+    }
+
+    .whywd-title{
+        padding: 15px;
+    }
+
+    .whywd-title h2{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .contemporaryFL h3{
+        font-size: 40px;
+    }
+
+    .titleTag{
+        margin-bottom:-10px!important;
+    }
+
+    .hwm-title h2{
+        font-size: 25px!important;
+    }
+
+    .cardItems{
+        width: 100%;
+    }
+
+    .cardItems.rotate{
+        left: 50px;
+        top:200px;
+        width: 80%;
+    }
+
+    .cardItems.rotate img{
+        height: 150px;
+    }
+
+    .what-our-client{
+        padding-top: 150px;
+    }
+
+
+    .what-our-client h2{
+        font-size: 40px;
+        padding: 0px;
+        margin-bottom: 30px!important;
+    }
+
+    .what-our-client h5{
+        font-size: 20px!important;
+    }
+
+    .pick-a-line{
+        padding-top:150px;
+    }
+
+
+    .pick-a-line h2{
+        font-size: 40px;
+    }
+
+    .laptopInneContent{
+        padding:20px;
+        height: auto!important;
+    }
+
+    .laptopInneContent ul, .laptopInneContent p{
+        width: 100%;
+    }
+
+    .faqTitle{
+        width: 60%;
+    }
+
+    .faqTitle h2{
+        font-size: 40px;
+    }
+
+    #faqInnerSection .accordion-button{
+        font-size: 25px!important;
+    }
+
+
+    .bottomSection{
+        padding-top:80px;
+    }
+
+    .bottomSection h2{
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .footerSection h2{
+        font-size: 45px!important;
+    }
+
+    .btn-primary{
+        font-size: 12px!important;
+    }
+
+
+    .footerLogo{
+        height: 100px;
+        object-fit: contain;
+    }
+
+
+    .footerSection p{
+        text-align: center;
+    }
+
+
+
+
+    .footerIcons li a{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}

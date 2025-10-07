@@ -4,15 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <title>New Catalyst Website</title>
 
   <!-- Bootstrap CSS -->
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-    crossorigin="anonymous"
-  >
+
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous">
 
   <!-- Bootstrap Icons -->
   <link 
@@ -33,7 +34,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end mt-lg-0 mt-3" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
@@ -63,8 +64,8 @@
 
 <section class="container-fluid homeBanner" style="background-image: url(img/image3.webp);">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-12">
+        <div class="row flex-lg-row flex-column-reverse">
+            <div class="col-lg-5 col-12 mt-lg-0 mt-5">
                 <div class="bannerImg d-flex flex-column align-items-center gap-3">
                     <p>Catalyst Studioz.com</p>
                     <img src="img/image1.webp">
@@ -77,10 +78,10 @@
                     </div>
                     <p>We design and build high-end sites for founders and brands who need clarity, speed, and conversions — no agency fluff, just raw craft.</p>
                     <div class="row buttonSec">
-                        <div class="col-lg-5 col-12 ">
+                        <div class="col-lg-5 col-md-5 col-12">
                             <button class="btn btn-primary w-100">Book a quick call</button>
                         </div>
-                        <div class="col-lg-5 col-12">
+                        <div class="col-lg-5 col-md-5 col-12 mt-lg-0 mt-3">
                             <button class=" btn btn btn-secondary w-100">See samples</button>
                         </div>
                     </div>
@@ -116,7 +117,7 @@
 <section class="container-fluid twoColSec what-we-do">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-6">
+            <div class="col-lg-6 col-12">
                 <div class="d-flex flex-column gap-4">
                     <div class="secTitle">
                         <h2>WHAT WE DO</h2>
@@ -130,13 +131,13 @@
                     </ul>
 
                     <div class="row buttonSec" style="padding-left:0px!important;">
-                        <div class="col-lg-4 col-12 ">
+                        <div class="col-lg-4 col-md-4 col-12">
                             <button class="btn btn-primary w-100">our services</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-6">
+            <div class="col-lg-6 col-12 mt-lg-0 mt-5">
                 <div class="wwdSec d-flex align-items-end">
                     <div class="wwdContent">
                         <div class="wwdTitle">
@@ -160,28 +161,28 @@
 <section class="container-fluid why-were-different">
     <div class="container">
         <div class="row" style="position: relative;">
-            <div class="col-12 d-flex justify-content-end">
+            <div class="col-12 d-flex justify-content-lg-end justify-content-center mb-lg-0 mb-5">
                 <div class="whywd-title">
                     <h2>WHY WE’RE DIFFERENT</h2>
                 </div>
             </div>
             <img class="linebroke" src="img/image14.webp">
-            <div class="col-lg-4 col-md-6 col-12" style="position: relative; z-index: 1;">
-                <div class="d-flex flex-column gap-2 align-items-center">
+            <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center" style="position: relative; z-index: 1;">
+                <div class="wwdCard d-flex flex-column gap-2 align-items-center">
                     <img class="wwd-img mb-3" src="/img/image11.webp">
                     <h4>Crafted not templated</h4>
                     <p>Everything is custom. We design the interface, interactions, and microcopy so the site feels owned, not rented.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 mt-5" style="position: relative; z-index: 1;">
-                <div class="d-flex flex-column gap-2 align-items-center mt-5">
+            <div class="col-lg-4 col-md-6 col-12 mt-lg-5 mt-4 d-flex justify-content-center" style="position: relative; z-index: 1;">
+                <div class="wwdCard d-flex flex-column gap-2 align-items-center mt-lg-5 mt-0">
                     <img class="wwd-img mb-3" src="/img/image12.webp">
                     <h4>Built for conversions</h4>
                     <p>Wireframes driven by user paths, copy that nudges, forms that convert. We build to measure, then iterate.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 mt-5 pt-5" style="position: relative; z-index: 1;">
-                <div  class="d-flex flex-column gap-2 align-items-center mt-5 pt-5">
+            <div class="col-lg-4 col-12 mt-4 pt-lg-5 pt-0 d-flex justify-content-center" style="position: relative; z-index: 1;">
+                <div  class="wwdCard d-flex flex-column gap-2 align-items-center mt-lg-5 mt-0 pt-lg-5 pt-0">
                     <img class="wwd-img mb-3" src="/img/image13.webp">
                     <h4>Fast, fearless delivery</h4>
                     <p>Premium speed without the premium wait. We ship on rhythm, not excuses.</p>
@@ -210,13 +211,13 @@
                     <h2>Real sites. Real impact.</h2>
                 </div>
             </div>
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-6 col-12 mb-lg-0 mb-5">
                 <div class="d-flex flex-column gap-3 align-items-start">
                     <p class="titleTag">Anthos</p>
                     <h3>Contemporary Fashion Label</h3>
                     <p>Curated homepage with strong storytelling, refined product pages with size/fit details, and a seamless Shopify checkout experience.</p>
                     <div class="row buttonSec w-100" style="padding-left:0px!important;">
-                        <div class="col-lg-4 col-12 ">
+                        <div class="col-lg-4 col-md-6 col-12 ">
                             <button class="btn btn-primary w-100">view project</button>
                         </div>
                     </div>
@@ -241,9 +242,9 @@
 
 <section class="container-fluid how-we-move">
     <div class="container">
-        <div class="row">
+        <div class="row flex-lg-row flex-column-reverse">
             <div class="col-lg-5 col-12">
-                <div class="d-flex flex-column gap-4" style="position: relative; z-index: 0;">
+                <div class="d-flex flex-column gap-4 ps-lg-0 ps-md-5 ps-0" style="position: relative; z-index: 0;">
                     <div class="cardItems">
                         <img src="img/image17.webp">
                         <div class="d-flex flex-column gap-2 mt-3">
@@ -260,14 +261,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 col-12 ps-lg-5 ps-0 contentSect">
+            <div class="col-lg-7 col-12 ps-lg-5 ps-0 mb-lg-0 mb-5 contentSect">
                 <div class="d-flex flex-column gap-3">
                     <div class="hwm-title">
                         <h2>How we move from idea to a live, converting site</h2>
                     </div>
                     <p>Six focused steps. Clear milestones. No surprises.</p>
                     <div class="row buttonSec w-100" style="padding-left:0px!important;">
-                        <div class="col-lg-4 col-12 ">
+                        <div class="col-lg-4 col-md-6 col-12 ">
                             <button class="btn btn-primary w-100">Book a quick call</button>
                         </div>
                     </div>
@@ -331,13 +332,102 @@
             <div class="col-12">
                 <h2>Pick a lane. We’ll take care of the rest.</h2>
             </div>
-            <div class="col-12">
-                <div class="laptopSec">
-                    <h4>Starter</h4>
-                    <h6>The Launch (from $500)</h6>
-                    <ul class="d-flex flex-column gap-3">
-                        <li><i class="bi bi-check-circle-fill"></i> Custom 1-page or brochure site</li>
-                    </ul>
+            <div class="col-12 mt-lg-0 mt-5">
+                <div class="laptopSec d-flex justify-content-center align-items-center">
+                    <div class="laptopInneContent">
+                        <h4>Starter</h4>
+                        <h6>The Launch (from $500)</h6>
+                        <ul class="d-flex flex-column gap-3">
+                            <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill"></i>Custom 1-page or brochure site</li>
+                            <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill"></i>Mobile-first, CMS for updates</li>
+                            <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill"></i>Basic on-page SEO + analytics setup</li>
+                            <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill"></i>1 round of revisions</li>
+                        </ul>
+                        <p>Perfect for:  Small brands, portfolios, proof-of-concept.</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center btmInnerSec">
+                    <h6>Reserve your slot with a 30% downpayment. We accept bank transfer, PayPal, and GCash. Book now — projects limited each month.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="container-fluid faqSec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-lg-0 mb-5">
+                <div class="d-flex flex-column gap-3 justify-content-start">
+                    <div class="faqTitle">
+                        <h2>FAQ — short & sharp</h2>
+                    </div>
+                    <div class="row buttonSec w-100" style="padding-left:0px!important;">
+                        <div class="col-7 ">
+                            <button class="btn btn-primary w-100">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12">
+                <div class="d-flex justify-content-start">
+                    <div class="accordion w-100" id="faqInnerSection">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Can you start if my copy isn’t finished?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Absolutely. We’ll start the design and structure with smart placeholders. You can hand over final copy anytime before QA and we’ll swap it in at no extra fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How long does a site take?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Absolutely. We’ll start the design and structure with smart placeholders. You can hand over final copy anytime before QA and we’ll swap it in at no extra fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you do e-commerce?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Absolutely. We’ll start the design and structure with smart placeholders. You can hand over final copy anytime before QA and we’ll swap it in at no extra fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What if we need changes after launch?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Absolutely. We’ll start the design and structure with smart placeholders. You can hand over final copy anytime before QA and we’ll swap it in at no extra fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -352,6 +442,73 @@
 
 
 
+<section class="container-fluid bottomSection">
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h2>Ready to build something that works as hard as you do?</h2>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<footer class="container-fluid footerSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <h2>Let's make some magic happen</h2>
+            </div>
+            <div class="col-lg-4 col-md-8 col-12 mt-lg-0 mt-4 d-flex align-items-center">
+                <div class="row buttonSec w-100" style="padding-left:0px!important;">
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100">Schedule a free 15-min clarity call</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="row pt-5" style="border-top:1px solid #0016a1;">
+                    <div class="col-lg-2 col-md-3 col-12 mb-lg-0 mb-5">
+                        <div class="d-flex justify-content-center">
+                            <a href="#"><img class="w-100 footerLogo" src="/img/image30.webp"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-9 col-12 d-flex align-items-center">
+                        <div class="d-flex justify-content-start">
+                            <p>We build fast, beautiful, and conversion-driven websites for founders and boutique brands.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 mt-lg-0 mt-3">
+                        <div class="d-flex flex-column align-items-lg-end align-items-md-start align-items-center gap-3">
+                            <h6>Follow Us</h6>
+                            <ul class="footerIcons d-flex gap-lg-3 gap-2 align-items-center justify-content-end p-0" style="list-style: none;">
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+                                <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="footerBtm d-flex flex-lg-row flex-column gap-1 justify-content-between align-items-center">
+                    <p>Copyright © 2025 catalyst studioz </p>
+                    <ul class="d-flex align-items-center m-0 p-0 gap-2">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -373,24 +530,21 @@
 
 
 
-  <!-- jQuery -->
-  <script 
-    src="https://code.jquery.com/jquery-3.7.1.min.js" 
-    integrity="sha256-3fp9jc8H5c88aU4F2mX6ZlW8av+W9g6tYB4oAaq0L4w=" 
-    crossorigin="anonymous">
-  </script>
 
-  <!-- Bootstrap JS (needs Popper for dropdowns, tooltips, etc.) -->
-  <script 
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
-    crossorigin="anonymous">
-  </script>
-  <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
-    crossorigin="anonymous">
-  </script>
+
+ <!-- jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-3fab7Zt+f1n2w7yQev0Y5qkRy0lqP+dX1DF+36nV8Ew="
+  crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+
+
 
   <!-- Custom jQuery Example -->
   <script>
