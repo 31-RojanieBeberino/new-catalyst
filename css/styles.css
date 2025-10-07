@@ -935,3 +935,20 @@ li, select, input, button, span,
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+.weWorkWith{
+    padding:50px 40px 0px;
+    background: #475EF1;
+    background: linear-gradient(180deg, rgba(71, 94, 241, 1) 0%, rgba(7, 29, 168, 1) 70%);
+    border-radius: 20px;
+}
+
+
+.weWorkWith h2{
+    font-size: 70px;
+    color:#fff;
+    font-weight: 700;
+    line-height: 1em;
+}
