@@ -1137,6 +1137,7 @@ li, select, input, button, span,
     font-weight: 600;
     background-color: #00083d!important;
     padding:15px 20px!important;
+    border: 0px!important   ;
 }
 
 .form-control::placeholder{

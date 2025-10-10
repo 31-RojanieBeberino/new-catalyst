@@ -93,6 +93,50 @@
         font-size: 20px;
     }
 
+    .playSec{
+        width: 100%;
+    }
+
+    .playSec p{
+        text-align: center;
+    }
+
+    .aboutSec{
+        height: 700px;
+        padding:100px 20px 200px;
+    }
+
+
+    .formSec{
+        padding:30px;
+        margin-top: 50px!important;
+    }
+
+     .workInner{
+        padding:50px 20px 250px;
+    }
+
+    .workDetails h2{
+        font-size: 20px;
+    }
+
+    .workDetails p, .crafting p, .secList li{
+        font-size: 18px;
+    }
+
+    .innerSec.banner h1{
+        font-size: 30px;
+    }
+
+    .innerSec h4{
+        font-size: 25px;
+    }
+
+    .innerSec p{
+        font-size: 16px;
+    }
+
+
 }
 
 
@@ -278,4 +322,70 @@
     .innerSec.banner{
         padding-bottom:20px;
     }
+
+    .contantUsSec h2{
+        font-size: 40px;
+    }
+
+    .formSec{
+        padding:30px 10px;
+    }
+
+    .contantUsSec{
+        padding:50px 20px 200px;
+        margin-bottom: 70px;
+    }
+
+    .innerSec h2{
+        font-size: 30px;
+    }
+
+    .workInner{
+        padding:50px 20px 250px;
+    }
+
+    .contemporaryFL h3{
+        font-size: 35px;
+    }
+
+    .projectSheet{
+        width: 100%;
+        height: 100%;
+    }
+
+    .innerSec.banner h1{
+        font-size: 25px;
+    }
+
+
+    .responsiveSec{
+        padding:100px 50px 250px;
+    }
+
+    .innerSec{
+        padding-bottom: 50px;
+    }
+
+    .serviceSec{
+        margin-top: 0px!important;
+    }
+
+    .btnArrow{
+        width: 120px;
+        top: 10px;
+        right: 20px;
+    }
+
+    .btnForWho{
+        padding: 10px 15px;
+    }
+
+    .btnArrow img{
+        height: 40px;
+    }
+
+    .weWorkWith{
+        padding: 100px 20px 0px
+    }
+
 }
